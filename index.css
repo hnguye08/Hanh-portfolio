@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #F8F9F9;
 }
 
 .header-container{
@@ -54,8 +55,202 @@ body {
   
 }
 
-/* .body-section1-container {
-  background-color: lightseagreen;
+.body-section1-container {
+  /* background-color: lightseagreen; */
   height: 730px;
   width: 100%;
-} */
+
+}
+.body-section1-content {
+  /* background-color: lightgray); */
+  width: 1200px;
+  height: 100%;
+  margin-right: 120px;
+  margin-left: 120px;
+  position: relative
+}
+
+.section1-background-img {
+  /* background-color: palevioletred; */
+  height: 700px;
+  width: 721px;
+  
+  position: absolute;
+  transform: scale(1, 1) translate(-120px, 0px);
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("plant_img.jpg");
+}
+
+.section1-center-img {
+  background-color: peachpuff;
+  height: 450px;
+  width: 315px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.center-img {
+  width: 100%;
+  height: 100%;
+
+  top: 0px;
+  left: 0px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./IT.Nguyen.Hanh.jpg");
+}
+
+.section1-text-block {
+  /* background-color: rgb(53, 118, 148); */
+  height: 300px;
+  width: 324px;
+  position: absolute;
+  left: 798px;
+  top: 280px;
+
+}
+
+.textbox-title {
+  color: rgba(150,150,150,1);
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  font-size: 34px;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.textbox-paragraph {
+  color: rgba(25,25,26,1);
+  line-height: 1.8;
+  letter-spacing: 0em;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Old Standard TT';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.textbox-footer {
+  color: rgba(150,150,150,1);
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+  text-align: left;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+.about-section-container {
+  background-color: blue;
+  width: 1200px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+
+
+}
+
+.about-block1 {
+  height: 110px;
+  width: 316px;
+  /* background-color: greenyellow; */
+  position: absolute;
+  left: 99px;
+  top: 170px;
+  transform: scale(1, 1) translate(0px, 0px);
+  
+
+}
+
+.about-block2 {
+  height: 482px;
+  width: 384px;
+  background-color: hotpink;
+  position: absolute;
+  left: 217px;
+  top: 436px;
+  transform: scale(1, 1) translate(0px, 0px);
+
+}
+
+.about-block3 {
+  height: 414px;
+  width: 414px;
+  background-color: orangered;
+  position: absolute;
+  left: 443px;
+  top: 136px;
+  transform: scale(1, 1) translate(0px, 0px);
+
+}
+
+.about-block4 {
+  height: 450px;
+  width: 663px;
+  /* background-color: purple; */
+  position: absolute;
+  left: 656px;
+  top: 270px;
+  transform: scale(1, 1) translate(0px, 0px);
+}
+
+.about-block5 {
+  height: 400px;
+  width: 316px;
+  /* background-color: cornflowerblue; */
+  position: absolute;
+  left: 659px;
+  top: 760px;
+  transform: scale(1, 1) translate(0px, 0px);
+
+}
+
+.about-background-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+
+}
+
+.background-img1 {
+  background-image: url(Leaves.jpg);
+}
+
+.center-background-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+
+}
+
+.background-img2 {
+  background-image: url(Flowers.jpg);
+}
+
+.background-img3 {
+  background-image: url(palm.jpg);
+}
