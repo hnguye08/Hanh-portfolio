@@ -88,7 +88,7 @@ body {
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("plant_img.jpg");
+  background-image: url("./public/images/plant_img.jpg");
 }
 
 .section1-center-img {
@@ -111,7 +111,7 @@ body {
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("./IT.Nguyen.Hanh.jpg");
+  background-image: url("./public/images/IT.Nguyen.Hanh.jpg");
 }
 
 .section1-text-block {
@@ -237,7 +237,7 @@ body {
 }
 
 .background-img1 {
-  background-image: url(Leaves.jpg);
+  background-image: url(./public/images/Leaves.jpg);
 }
 
 .center-background-img {
@@ -248,9 +248,9 @@ body {
 }
 
 .background-img2 {
-  background-image: url(Flowers.jpg);
+  background-image: url(./public/images/Flowers.jpg);
 }
 
 .background-img3 {
-  background-image: url(palm.jpg);
+  background-image: url(./public/images/palm.jpg);
 }
